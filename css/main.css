@@ -1,0 +1,42 @@
+body {
+    font-size: 50pt;
+    font-family: 'Lato', sans-serif;
+}
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    flex-direction: column; will set layout to column instead of row
+    
+}
+form {
+    text-align: center;
+}
+input {
+    font-size: 45pt;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5pt;
+    border: 3px solid gray;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 50pt;
+    width: 10%;
+    border-radius: 9pt;
+    background-color: rgb(184, 184, 184);
+    color: white;
+    border: 0px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(115, 115, 115);
+}
+
+.negative-values {
+    color: red ;
+}
